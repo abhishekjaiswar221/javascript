@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FormData Object</title>
+    <style>
+        body {
+            background-color: #2b2b2b;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="username" id="username" placeholder="Enter Usename"><br><br>
+        <input type="password" name="password" id="password" placeholder="Enter Password"><br><br>
+        <input type="email" name="email" id="email" placeholder="Enter Email"><br><br>
+        <h4>Gender</h4>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other">
+        <label for="other">Other</label>
+        <br><br>
+        <select name="country" id="country">
+            <option value="" selected disabled></option>
+            <option value="India">India</option>
+            <option value="Russia">Russia</option>
+            <option value="Nepal">Nepal</option>
+        </select><br><br>
+
+        <h3>Courses</h3>
+
+
+        <input type="checkbox" name="react" id="react">
+        <label for="react">React</label>
+
+        <input type="checkbox" name="java" id="java">
+        <label for="java">Java</label>
+
+        <input type="checkbox" name="python" id="python">
+        <label for="python">Python</label>
+
+        <input type="checkbox" name="javascript" id="javascript">
+        <label for="javascript">JavaScript</label><br><br>
+
+        <label for="dateofbirth">DOB</label>
+        <input type="date" name="dateofbirth" id="dateofbirth"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>

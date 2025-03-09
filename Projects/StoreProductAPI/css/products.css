@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ededed;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 20px;
+    justify-content: center;
+    margin: 50px;
+}
+
+#product {
+    height: 400px;
+    background-color: #f4f4f4;
+    color: black;
+    border-radius: 8px;
+    margin: 30px 10px;
+    border: 1px solid black;
+}
+
+#product-img>figure>img {
+    height: 250px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#product-img>figcaption {
+    font-size: 19px;
+    padding: 10px 10px;
+}
+
+#product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 10px;
+}
+
+#product-info>h3 {
+    font-size: 19px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+#product-info>h3::before {
+    content: "Category :";
+    padding-right: 15px;
+}
+
+#product-info>h2 {
+    font-size: 19px;
+    font-weight: 200;
+}
+
+#product-info>h2::before {
+    content: "Price :";
+    padding-right: 15px;
+}
+
+#product-info>h2>span {
+    font-size: 19px;
+    font-weight: 200;
+}
+
+#product-info>h2>span::before {
+    content: "Rating :";
+    padding-right: 15px;
+    margin-left: 60px;
+}
+
+/* Side Bar */
+#sidebar{
+    position: relative;
+}
+#category{
+    position: absolute;
+    top: 0;
+    left: 0;
+}

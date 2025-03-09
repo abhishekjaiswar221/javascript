@@ -1,0 +1,42 @@
+[
+  {
+    "name": "shashi",
+    "id": "121",
+    "designation": "Software Engineer",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "name": "khusi",
+    "id": "122",
+    "designation": "Software Engineer",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "name": "rishi",
+    "id": "123",
+    "designation": "Blockchain Engineer",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "name": "krishi",
+    "id": "124",
+    "designation": "Software Developer",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  }
+]

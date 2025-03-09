@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #2f2f2f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    height: 440px;
+    width: 320px;
+}
+
+#form-header {
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#form-header>h1 {
+    color: #2f2f2f;
+}
+
+#login-form {
+    width: 100%;
+    padding: 25px 25px 15px 25px;
+}
+
+#form-control {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-div>input {
+    padding: 13px 8px;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    font-size: 15px;
+    background-color: rgb(250, 251, 252);
+    border-color: rgb(223, 225, 230);
+    color: rgb(9, 30, 66);
+    cursor: text;
+    border-width: 2px;
+    border-style: solid;
+    box-sizing: border-box;
+    transition: background-color 0.2s ease-in-out 0s, border-color 0.2s ease-in-out 0s;
+    line-height: 1.42857;
+}
+
+.input-div>input:hover {
+    background-color: rgb(235, 236, 240);
+}
+
+.input-div>input:focus {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(76, 154, 255);
+}
+
+/* .input-div>input::placeholder {
+    padding-left: 13px;
+} */
+
+.input-div>button {
+    padding: 13px 0;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: #2f2f2f;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.input-div>button:hover {
+    background-color: rgb(76, 154, 255);
+    transition: 1.5s;
+}
+
+#signup {
+    text-align: center;
+}
+
+#signup>a {
+    text-decoration: none;
+    color: #2f2f2f;
+}
